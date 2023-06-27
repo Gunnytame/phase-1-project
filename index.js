@@ -1,4 +1,13 @@
-document.addEventListener('DOMContenLoaded',() => {
+
+document.addEventListener('DOMContentLoaded',() => {
+    console.log("hello")
+    const categoryImage = {
+        "food": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg",
+        "entertainment": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg",
+        "nature": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
+    }    
+    console.log(categoryImage.food)
+
     fetch('http://localhost:3000/denver')
         .then (response => response.json())
         .then (data => {
@@ -6,6 +15,7 @@ document.addEventListener('DOMContenLoaded',() => {
             data.forEach(denver => {
                 addToDenverList(denver)
             });
+            // add data zero
         })
 
     function addToDenverList(denver){
@@ -13,9 +23,9 @@ document.addEventListener('DOMContenLoaded',() => {
             const image = document.createElement('img')
             image.addEventListener('click',e => {
                 console.log ('can you see image on nav bar')
-                categoryInfo(categories)
+                categoryInfo(denver)
             })
-            image.src = denver.image
+            image.src = denver.locImage
             denverList.append(image)
     }
 // need to reference category...filter function to pull down only those locations
