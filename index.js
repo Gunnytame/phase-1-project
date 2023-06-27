@@ -38,7 +38,7 @@ document.addEventListener('DOMContenLoaded',() => {
             setTimeout(() => {
                 event.target.style.color = "";
             }, 500);
-        },false
+        },false);
     }
         //     console.log('is my mouse doing anything')
         // });
