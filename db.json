@@ -4,129 +4,137 @@
       "id": 1,
       "name": "marcos coalfired ballpark",
       "category": "food",
-      "description": "preference",
+      "description": "Marcos Coal-Fired specializes in true neapolitan pizza, just the way rhey make it in Naples, Italian pizza that has crisp chewy crust with a softer middle.From the ingredients, to the cooking techniques,and even the ovens,we are the closest thing you'll get to Italy in Colorado!",
       "location": "https://www.yelp.com/map/marcos-coal-fired-ballpark-denver",
+      "locImage": "./assets/Marcos_Coal_Fired_Pizza.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg"
     },
     {
       "id": 2,
       "name": "denver central market",
       "category": "food",
-      "description": "preference",
+      "description": "The Denver Central Market is a gourmet marketplace and food hall with near a hundred of years' history, very cool vibes inside. There are a variety of local vendors, including bakery, coffee shop, fish market, butcher, rotisserie, chocolate shop, ice cream, pizza, salad, and sandwiches etc.",
       "location": "https://www.yelp.com/map/the-denver-central-market-denver-2",
+      "locImage": "./assets/Denver_Central_Market.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg"
     },
     {
       "id": 3,
       "name": "poke house denver",
       "category": "food",
-      "description": "preference",
+      "description": "At Poke House, we're proud to bring you a unique twist on traditional poke right here to the highlands. Every day, you can find us handcrafting our poke bowls using fresh ingredients of the highest quality. Dive into one of our specialty bowls,or get creative with a customizable bowl thats all your own. Each creation in quick, healthy,and delicious -- the prefect meal for any occasion.",
       "location": "https://www.yelp.com/map/poke-house-denver-denver-4",
+      "locImage": "./assets/Poke_House.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg"
     },
     {
       "id": 4,
       "name": "the source",
       "category": "food",
-      "description": "preference",
+      "description": "This former 1880's brick foundry building hs a vibrant collective of food artisans and retailers offering visitors everything from freshly baked bread to craft cocktails, fromn street tacos to contemporary flower arrangements. You can access the FREE PARKING garage directly off of Brighton Blvd. Also there is complimentary valet from 11am-2pm and 5pm-close. The Source is also featuring different pop-ups every weekend, so theres always something new to try at 'The Source'",
       "location": "https://www.yelp.com/map/the-source-denver",
+      "locImage": "./assets/The_Source.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg"
     },
     {
       "id": 5,
       "name": "jinya ramen bar",
       "category": "food",
-      "description": "preference",
+      "description": "We're Crazy About Ramen! JINYA is known for its slow cooked approach to ramen, made from broths simmered for 20 hours in house. From its customizable menu to sleek interiors,JINYA ramen bar presents contemporary japanese dining ideal for lively social gatherings for all ages.",
       "location": "https://www.yelp.com/map/jinya-ramen-bar-denver-denver",
+      "locImage": "./assets/Jinya_Ramen_Bar.jpg",
       "image": "https://i0.wp.com/denverdweller.com/wp-content/uploads/2021/03/Denver-coffee-unsplash.jpg?fit=1920%2C1280&ssl=1"
     },
     {
       "id": 6,
       "name": "immersion gamebox denver",
       "category": "entertainment",
-      "description": "preference",
+      "description": "Immersive ganebox takes immersive entertainment to the next level. Simply select your game and prepare to enjoy a truly unique immersive experience with your group. With motion tracking projection mapping,touch screens, and surround sound, Immersive Gamebox is like nothing you have ever experienced before! Perfect for adult groups, and families with children 5+. Our Gameboxes are fully private, interactive digital rooms featuring projection mapping, touch screens, motion tracking and surround sound, all designed to help you enjoy a hyper immersive gaming experince. we cant wait to welcome you to play soon! ",
       "location": "https://www.yelp.com/map/immersive-gamebox-denver-denver",
+      "locImage": "./assets/Immersion_Gamebox.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg"
     },
     {
       "id": 7,
       "name": "rise comedy",
       "category": "entertainment",
-      "description": "preference",
+      "description": "RISE Comedy is Denvers only improv comedy bar and theater. We offer improv comedy, sketch comedy, improv comedy classes, and MORE five nights a week, with a full bar included. We are proud to serve local draft beers along with many other local brands. Brand new shows every night.",
       "location": "https://www.yelp.com/map/rise-comedy-denver",
+      "locImage": "./assets/Rise_Comedy.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg"
     },
     {
       "id": 8,
       "name": "the 1up arcade",
       "category": "entertainment",
-      "description": "preference",
+      "description": "The LoDo location is one of three locations in metro Denver, The 1up LoDo features a world class collection of more than 45 classic arcade games, 16 pinball machines, three skeeball lanes,basketball hoops,giant jenga and more. Our interior draws inspiration from the games themselves, with custom murals, vintage posters and retro game memorabilia adorning the walls. A trip down memory lane wouldnt be complete without alcohol, so while we cant promise the same liqour you snuck from your parents cabinet in high school, a full bar is available, with 14 taps,specialty cocktails and nostalgic throwback drinks, as well as a robust food menu featuring burgers, wings, sandwiches and more. Check out their website for info on player events and tournaments,as well as private events. Game on!",
       "location": "https://www.yelp.com/map/the-1up-arcade-bar-lodo-denver",
+      "locImage": "./assets/1up_Bar.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg"
     },
     {
       "id": 9,
       "name": "punch bowl social",
       "category": "entertainment",
-      "description": "preference",
+      "description": "Punch Bowl Social Denver is the Mothership of fun. Whether it’s brunch o’clock, a breezy happy hour, or late-night shenanigans - we got you. A general store in a former life, the vibe of this massive fun factory is industrial chic, and it’s the perfect place to show off your craft beverage ordering skills. We’ve got multiple bars, a scratch-kitchen menu, and ridiculous entertainment options such as bowling, shuffleboard, life-size Jenga, pool, karaoke, and old-school arcade games.",
       "location": "https://www.yelp.com/map/punch-bowl-social-denver-denver-5",
+      "locImage": "./assets/Punch_Bowl_Social.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg"
     },
     {
       "id": 10,
       "name": "colorado rockies",
       "category": "entertainment",
-      "description": "preference",
+      "description": "The 76-acre Coors Field stands at 20th and Blake streets in Denver's lower downtown/Ballpark Neighborhood. Fans sitting in the first-base and right-field areas are treated to a spectacular view of the Rocky Mountains. Every year since it opened in 1995, Coors has been a league leader in attendance.",
       "location": "https://www.yelp.com/map/colorado-rockies-denver",
+      "locImage": "./assets/Coors_field_Rockies.jpg",
       "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_avif,h_430,q_80,w_624/https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/cityparkjazz_F9EF3D9D-AA48-C9F6-C5226987D5CE9AE5_f9f7a051-d36b-32f7-d699571ee3126b53.jpg"
     },
     {
       "id": 11,
       "name": "confluence park",
       "category": "nature",
-      "description": "preference",
+      "description": "Confluence Park lies at the joining of Cherry Creek with the South Platte River. It’s one of Denver’s most urban parks, sitting at the edge of Lower Downtown. Combined with neighboring parks Commons, City of Cuernavaca Park, Centennial, Fishback, and Gates Crescent, there are lots of things to do within walking distance of Confluence.",
       "location": "https://www.yelp.com/map/confluence-park-denver",
+      "locImage": "./assets/confluence_park_denver.jpg",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
     },
     {
       "id": 12,
       "name": "cherry creek trail",
       "category": "nature",
-      "description": "preference",
+      "description": "Check out this 24.6-mile out-and-back trail near Denver, Colorado. Generally considered an easy route, it takes an average of 7 h 36 min to complete. This is a very popular area for birding, road biking, and running, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas",
       "location": "https://www.yelp.com/map/cherry-creek-trail-denver",
+      "locImage": "./assets/confluence_park_denver.jpg",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
     },
     {
       "id": 13,
       "name": "skyline park",
       "category": "nature",
-      "description": "preference",
+      "description": "From a world-class ice rink in the winter, to a beautiful outdoor beer garden in the summer, Skyline Park transforms each season to bring fun, family-friendly activities to the Downtown community. Check out all of our events and programs in Skyline Park.",
       "location": "https://www.yelp.com/map/skyline-park-denver",
+      "locImage": "./assets/Skyline_Park.jpg",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
     },
     {
       "id": 14,
       "name": "denver outdoor adventure company",
       "category": "nature",
-      "description": "preference",
+      "description": "Offering stand up paddle boards, single and tandem kayaks, tubes, and snow shoes for rent. Join them on family-oriented, educational, and environmentally friendly hiking, paddling, and snow shoeing adventures that promote the splendor and preservation of Colorado wilderness.",
       "location": "https://www.yelp.com/map/denver-outdoor-adventure-company-denver",
+      "locImage": "./assets/Denver_Outdoor_Adventure_Company.jpg",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
     },
     {
       "id": 15,
       "name": "alderfer three sisters park",
       "category": "nature",
-      "description": "preference",
+      "description": "Right in the heart of Evergreen, Alderfer/Three Sisters boasts the most trails per acre of any foothill park, with over 15 miles available to the public. Featuring lovely meadows and ponderosa pine forests, Alderfer/Three Sisters Park derives it name from the rock outcrops known as “The Three Sisters” and “The Brother,” seen along Sister’s Trail. Find scenic views along Scenic View Trail and views of the continental divide on Summit Trail.",
       "location": "https://www.yelp.com/map/alderfer-three-sisters-park-evergreen",
+      "locImage": "./assets/Alderfer_Three_Sisters_Park.jpg",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg"
-    },
-    {
-      "name": "Mario Pizza ",
-      "category": "food",
-      "description": "preference",
-      "location": "https://www.yelp.com/map/marcos-coal-fired-ballpark-denver",
-      "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg",
-      "id": 16
+    
     }
   ]
 }

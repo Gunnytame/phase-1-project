@@ -1,16 +1,22 @@
 body{
     background-color: darkslateblue;
     color: white; 
-    font-style:italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    border: 2px solid whitesmoke;
 }
 
-h1{
+headers{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
     text-shadow: 5px 5px 12px black;
+}
+
+.logo {
+    margin: 20px 0px 20px 0px;
+    width:50px;
+    height:auto;
+    vertical-align: left;
 }
 
 #denver-list {
@@ -22,4 +28,53 @@ h1{
     width: 150px;
     height: auto;
     margin: 10px;
+}
+
+#denver-list img:hover {
+    filter: drop-shadow(1 1 2rem white)
+}
+
+#category-info {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 25px;
+    align-content: left;
+}
+
+#category-info img {
+    filter: drop-shadow(1 1 2rem gold);
+    margin: 10px;
+    height: auto;
+}
+
+#category-info div {
+    display: flex;
+    justify-content: left;
+    margin-top: 2px;
+    border-color: darkred;
+    border-radius: 5px;
+}
+
+#category-info div p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#comment {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    background-color: beige;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:  border-box;
+}
+form {
+    width: 100px;
+}
+
+footer p {
+    color: palegoldenrod;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
