@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContenLoaded',() => {
     fetch('http://localhost:3000/denver')
         .then (response => response.json())
@@ -47,6 +46,3 @@ document.addEventListener('DOMContenLoaded',() => {
         //     document.getElementById("highlight").innerHTML += "Moused over!<br>";
         // }
 })
-=======
-goodbye
->>>>>>> sherinas
