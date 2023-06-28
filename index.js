@@ -12,14 +12,46 @@ document.addEventListener('DOMContentLoaded',() => {
         .then (response => response.json())
         .then (data => {
             console.log(data)
-            const myArray = [1,2,3,4,5];
-            function categoryFilter(denver)
+        let category = ""
+        const nature = document.querySelector('#nature')
+        nature.addEventListener("click", event => {
+            console.log("hello")
+            category = "nature"
+            const filter = data.filter(denver =>{
+            // console.log(denver.category===("entertainment"))
+            return denver.category===(category)
+        })
+            console.log(filter)
 
+        // const nature = document.querySelector('#WhereToPLAY?')
+        //     nature.addEventListener("click", event => {
+        //         console.log("hello")
+        //         category = "Where to PLAY?"
+        //         const filter = data.filter(denver =>{
+        //         // console.log(denver.category===("entertainment"))
+        //         return denver.category===(category)
+        //     })
+        //         console.log(filter)
+
+        // const nature = document.querySelector('#WhereToRELAX?')
+        // nature.addEventListener("click", event => {
+        //     console.log("hello")
+        //     category = "Where to RELAX?"
+        //     const filter = data.filter(denver =>{
+        //     // console.log(denver.category===("entertainment"))
+        //     return denver.category===(category)
+        // })
+        //     console.log(filter)
+
+            filter.forEach(denver => {
                 addToDenverList(denver)
-            });
-            
+            // })
+        })
+    
             // add data zero
         })
+        })
+    // })
 
     function addToDenverList(denver){
             const denverList = document.querySelector('#denver-list')
