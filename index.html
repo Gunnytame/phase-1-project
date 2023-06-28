@@ -9,14 +9,28 @@
 </head>
 <body>
     <header>
-        <h1>Where to go when going to Flatiron School</h1>
+        <h1>Where To Go While Going To Flatiron School</h1>
         <img class = "logo" src = "./assets/Denver_Logo.jpg"/>
+        <nav>
+            <div id="food">
+             <p>"Where to EAT?"</p>
+             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+            </div>
+            <div id="entertainment">
+                <p>"Where to PLAY?"</p>
+                <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+            </div>
+            <div id="nature">
+                <p>"Where to RELAX?"</p>
+                <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+            </div>
+    </nav>
         <nav id="denver-list">
-            <ul>
+        <!-- <ul>
                 <li><a href="#Food">Food</a></li>
                 <li><a href="#Entertainment">Entertainment</a></li>
                 <li><a href="#Nature">Nature</a></li>
-            </ul>
+            </ul> -->
         </nav>
     </header>
     <div id="category-info">
@@ -31,12 +45,12 @@
 
     <section id="comment">
         <h2>Did we miss a great spot? ...  Let us know and it could be added to the list!</h2>
-        <form>
+        <form class="suggestions">
             <label for="name">Name of tourist destination:</label>
-            <input type="text" id="name" name="name" required>
+            <textarea type="text" id="name" name="name" required></textarea>
 
             <label for="location">Location:</label>
-            <input type="location" id="location" name="location" required>
+            <textarea type="location" id="location" name="location" required></textarea>
 
             <label for="Comment">Personal experience that made this a great spot:</label>
             <textarea id="message" name="message" required></textarea>
@@ -44,12 +58,12 @@
             
         </form>
         
-        ** <form>
-            <label for="email">Your email:</label>
-            <input type="email" id="email" name="email" required>
+        <form>
+            <!-- <label for="email">Your email:</label> -->
+            <!-- <input type="email" id="email" name="email" required> -->
 
             <input type="submit" value="Submit">
-        </form>**
+        </form>
 
     </section>
 
