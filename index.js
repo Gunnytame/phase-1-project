@@ -12,9 +12,12 @@ document.addEventListener('DOMContentLoaded',() => {
         .then (response => response.json())
         .then (data => {
             console.log(data)
-            data.forEach(denver => {
+            const myArray = [1,2,3,4,5];
+            function categoryFilter(denver)
+
                 addToDenverList(denver)
             });
+            
             // add data zero
         })
 
