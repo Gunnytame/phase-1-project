@@ -15,12 +15,10 @@ document.addEventListener('DOMContentLoaded',() => {
         }
     }
 
-    
-
     fetch('http://localhost:3000/denver')
         .then (response => response.json())
         .then (data => {
-            console.log(`this is first data set from .then`, data)
+            // console.log(`this is first data set from .then`, data)
         let category = ""
         const food = document.querySelector('#food')
         food.addEventListener("click", event => {
@@ -37,9 +35,7 @@ document.addEventListener('DOMContentLoaded',() => {
                 // console.log(`this is from foreach for food`, denver)
                 addToDenverList(denver)
             })
-        
-
-            // denverList(data[0])
+             // denverList(data[0])
         })
         const entertainment = document.querySelector('#entertainment')
             entertainment.addEventListener("click", event => {
