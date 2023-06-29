@@ -1,24 +1,57 @@
 body{
-    background-color: darkslateblue;
+    background-color: black;
     color: white; 
     font-family: Georgia, 'Times New Roman', Times, serif, cursive;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid gold; */
 }
 
-h1{
+.title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    gap: 1em;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font: bold;
     text-align: center;
-    text-shadow: 5px 5px 12px black;
+    /* text-shadow: 5px 5px 12px black; */
+    -webkit-text-fill-color: goldenrod;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: goldenrod;
+    vertical-align: text-top;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-right: 180px;
+    padding-bottom: 0px;
 }
 
 .logo {
-    justify-content: center;
-    /* margin: 10px 10px 10px 10px; */
-    width: 25%;
-    /* height:auto; */
-    /* vertical-align: top; */
-    
+    padding-left: 1px;
+    padding-right: 0;
+    padding-top: 30px;
+    height: 100px;
+   }
+.nav{
+    font-size: 60px;
+    display: flex;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 0;
+    justify-content: space-between;
+    text-align: center;  
+}
+.nav img{
+    height: 240px;
+    border: 5px solid white;
+    border-radius: 60px;
+    padding-top: 0;
+    width: 350px
 }
 
 #denver-list {
@@ -29,16 +62,18 @@ h1{
 #denver-list img {
     width: 150px;
     height: auto;
-    margin: 10px;
+    margin: 68px 106px;
 }
 
 #denver-list img:hover {
-    filter: drop-shadow(1 1 2rem white)
+    filter: drop-shadow(1 1 2rem white);
 }
 
 #category-info {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
     height: 400px;
     margin-top: 25px;
     align-content: left;
@@ -63,20 +98,23 @@ h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#comment {
+#comment h2{
+    display: flex;
     justify-content: left;
-    padding-left: 50px;
-    background-color: grey;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 24px;
+    font: italic;
     height: 50px;
-    -webkit-box-sizing:   border-box;
+    /* -webkit-box-sizing: content-box; */
 }
 
 
-form {
-    padding: 0px;
-    height: auto;
+.suggestion {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    height: 60px;
+    font-size: 24px;
 }
 
 footer p {

@@ -9,36 +9,40 @@
 </head>
 <body>
     <header>
-        <h1>Where To Go While Going To Flatiron School</h1>
+       <div class="title">
+        <h1>Where to Go While Attending Flatiron</h1>
         <img class = "logo" src = "./assets/Denver_Logo.jpg"/>
-        <nav>
-            <div id="food">
-             <p>"Where to EAT?"</p>
-             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+        </div>
+        <div id="category-list">
+            <nav class="nav">
+             <div id="food">
+                 <p>EAT</p>
+                <img src="./assets/food_category.jpg" alt=""/>
             </div>
             <div id="entertainment">
-                <p>"Where to PLAY?"</p>
-                <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+                <p>PLAY</p>
+                <img src="./assets/Entertainment_Category.jpg" alt=""/>
             </div>
             <div id="nature">
-                <p>"Where to RELAX?"</p>
-                <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1jpWXZXyqIvbecFc8TdObw/o.jpg" alt=""/>
+                <p>CHILL</p>
+                <img src="./assets/Nature_Category.jpg" alt=""/>
             </div>
-    </nav>
-        <nav id="denver-list">
-        <!-- <ul>
+            </nav>
+        </div>
+        <!-- <nav id="denver-list">
+            <ul>
                 <li><a href="#Food">Food</a></li>
                 <li><a href="#Entertainment">Entertainment</a></li>
                 <li><a href="#Nature">Nature</a></li>
-            </ul> -->
-        </nav>
+            </ul>
+        </nav> -->
     </header>
     <div id="category-info">
-        <img id = "category-image" src = ""/>
+        <img id="category-image" src = ""/>
         <div>
-            <h1 id = "name">Name </h1>
-            <img id = "locImage">
-            <p id = "description">Description</p>
+            <h2 id="name">Name </h2>
+            <img id="locImage"  src = ""/>
+            <p id="description"></p>
         </div>
     </div>
 
@@ -53,8 +57,6 @@
 
             <label for="Comment">Personal experience that made this a great spot:</label>
             <textarea id="message" name="message" required></textarea>
-
-            
         </form>
         
         <form>

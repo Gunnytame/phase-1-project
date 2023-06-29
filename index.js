@@ -1,4 +1,4 @@
-
+let info
 document.addEventListener('DOMContentLoaded',() => {
     console.log("hello")
     const categoryImage = {
@@ -8,53 +8,72 @@ document.addEventListener('DOMContentLoaded',() => {
     }    
     console.log(categoryImage.food)
 
+    function removeChild(parent){
+        while(parent.firstChild){
+            parent.removeChild(parent.firstChild)
+        }
+    }
+
+    const denverList = document.querySelector("#denver-list")
+
     fetch('http://localhost:3000/denver')
         .then (response => response.json())
         .then (data => {
             console.log(data)
         let category = ""
-        const nature = document.querySelector('#nature')
-        nature.addEventListener("click", event => {
+        const food = document.querySelector('#food')
+        food.addEventListener("click", event => {
             console.log("hello")
-            category = "nature"
+            category = "food"
+         removeChild(denverList)
             const filter = data.filter(denver =>{
             // console.log(denver.category===("entertainment"))
             return denver.category===(category)
         })
             console.log(filter)
 
-        // const nature = document.querySelector('#WhereToPLAY?')
-        //     nature.addEventListener("click", event => {
-        //         console.log("hello")
-        //         category = "Where to PLAY?"
-        //         const filter = data.filter(denver =>{
-        //         // console.log(denver.category===("entertainment"))
-        //         return denver.category===(category)
-        //     })
-        //         console.log(filter)
-
-        // const nature = document.querySelector('#WhereToRELAX?')
-        // nature.addEventListener("click", event => {
-        //     console.log("hello")
-        //     category = "Where to RELAX?"
-        //     const filter = data.filter(denver =>{
-        //     // console.log(denver.category===("entertainment"))
-        //     return denver.category===(category)
-        // })
-        //     console.log(filter)
+            filter.forEach(denver => {
+                addToDenverList(denver)
+            })
+            // denverList(data[0])
+        })
+        const entertainment = document.querySelector('#entertainment')
+            entertainment.addEventListener("click", event => {
+                 // console.log("hello")
+                category = "entertainment"
+             removeChild(denverList)
+                const filter = data.filter(denver =>{
+                // console.log(denver.category===("entertainment"))
+                return denver.category===(category)
+            })
+                console.log(filter)
 
             filter.forEach(denver => {
                 addToDenverList(denver)
-            // })
+            })
+            // denverList(data[0])
         })
-    
-            // add data zero
+        const nature = document.querySelector('#nature')
+        nature.addEventListener("click", event => {
+            // console.log("hello")
+            category = "nature"
+         removeChild(denverList)
+            const filter = data.filter(denver =>{
+            // console.log(denver.category===("entertainment"))
+            return denver.category===(category)
         })
-        })
-    // })
+            console.log(filter)
+
+        filter.forEach(denver => {
+            addToDenverList(denver)
+            })
+        })  
+        // denverList(data[0])
+    })
 
     function addToDenverList(denver){
-            const denverList = document.querySelector('#denver-list')
+            info = denver
+            // const denverList = document.querySelector('#denver-list')
             const image = document.createElement('img')
             image.addEventListener('click',e => {
                 console.log ('can you see image on nav bar')
@@ -77,13 +96,13 @@ document.addEventListener('DOMContentLoaded',() => {
         description.textContent = denver.description
         image.src = denver.locImage
 
-        const local = document.getElementById('#name');
-        local.addEventListener("mouseover", event => {
-            event.target.style.color = "grey";
-            setTimeout(() => {
-                event.target.style.color = "";
-            }, 500);
-        },false);
+        // const local = document.getElementById('#name');
+        // local.addEventListener("mouseover", event => {
+        //     event.target.style.color = "grey";
+        //     setTimeout(() => {
+        //         event.target.style.color = "";
+        //     }, 500);
+        // },false);
     }
         //     console.log('is my mouse doing anything')
         // });
