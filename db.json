@@ -2,12 +2,12 @@
   "denver": [
     {
       "id": 1,
-      "name": "marcos coalfired ballpark",
+      "name": "Marcos Coal-Fired Pizza",
       "category": "food",
       "description": "Marcos Coal-Fired specializes in true neapolitan pizza, just the way rhey make it in Naples, Italian pizza that has crisp chewy crust with a softer middle.From the ingredients, to the cooking techniques,and even the ovens,we are the closest thing you'll get to Italy in Colorado!",
       "location": "https://www.yelp.com/map/marcos-coal-fired-ballpark-denver",
-      "locImage": "./assets/Marcos_Coal_Fired_Pizza.jpg",
-      "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_387,q_65,w_1024/v1/clients/denver/SFN_meal_e145a0d1-07e6-4518-a916-41f6aa15d779.jpg"
+      "locImage": "./assets/marcos.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/5922ec6fe6f2e10af29e7326/1607034733620-EVSQUN3TR1UC0ER8VAYC/5.png?format=1500w"
     },
     {
       "id": 2,
